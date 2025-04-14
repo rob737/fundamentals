@@ -1,0 +1,1 @@
+String countryCount = "select count(1) from country";
