@@ -6,7 +6,6 @@ import java.util.Map;
 public class CustomPartitioner implements Partitioner {
     // 2nd paramter represents key
     // first paramter represents topic name
-    // cluster represents
     @Override
     public int partition(String s, Object o, byte[] bytes, Object o1, byte[] bytes1, Cluster cluster) {
         System.out.println("String S" + s);

@@ -20,7 +20,7 @@ public class MovieConsumer {
     /*
     * Each consumer is part of a consumer group identified by group.id.
     * No two consumers from the same consumer group will consume messages from the same partition of a topic
-    * simultaneously.
+    * .
     * Consumers first needs to subscribe to a topic where in they are assigned a consumer group and then they
     * poll the subscribed topic.
     *
